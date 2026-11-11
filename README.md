@@ -1,21 +1,31 @@
-# quant-web-push
-A PowerShell script to automatically generate quant community promos and push URLs to Baidu &amp; IndexNow.（一句话解释：自动生成量化社群推广文案并推送到百度和 IndexNow 的脚本）
-# 数智量化 · 自动推广与 SEO 推送脚本
+<h1 align="center">Hi there 👋 Welcome to my GitHub profile!</h1>
 
-这是一个用于全站自动化推广和搜索引擎收录的 PowerShell 脚本。适用于基于静态页面生成的量化数据站点。
+<p align="center">
+  <a href="https://shzqh.cn">
+    <img src="https://img.shields.io/badge/🌐_Official_Website-数智shzqh.cn-blue?style=for-the-badge" alt="Website">
+  </a>
+  <a href="https://shzqh.cn/factor-map.html">
+    <img src="https://img.shields.io/badge/📊_Factor_Map-全品种因子图谱-green?style=for-the-badge" alt="Factor Map">
+  </a>
+  <a href="https://shzqh.cn/strategies/">
+    <img src="https://img.shields.io/badge/📝_Strategies-策略简报-orange?style=for-the-badge" alt="Strategies">
+  </a>
+</p>
 
-## ✨ 功能特性
-- 自动读取当天的 `_index.json` 数据，生成合规的社群推广文案（自动复制到剪贴板）。
-- **智能动态抓取**：自动扫描 24 小时内修改过的 HTML 页面，避免漏推。
-- **百度主动推送**：自动去重，按优先级截断推送到百度 API。
-- **IndexNow 聚合推送**：全量推送最新页面到 Bing/Yandex，极大加速收录周期。
+I'm currently maintaining a data and intelligence platform focused on **Futures Quantitative Research (期货量化研究)**. 
 
-## 🛠 使用方法
-1. 修改脚本顶部的 `$Local` 和 `$Domain` 配置。
-2. 替换为你自己的百度推送 Token 和 IndexNow Key。
-3. 运行 `.\promote.ps1`。
+### 🚀 Projects & Tools
+*   **Data Pipeline**: Aggregating market data (Tick/OHLC) and fundamental factors.
+*   **Strategy Engine**: Backtesting and multi-factor resonance scoring.
+*   **Web Platform**: Visualizing structural signals and risk management.
 
-## 🌐 实战案例
-本脚本目前运行在 [数智shzqh.cn - 期货量化研究站](https://shzqh.cn)，实现了每日数千个品种数据页面的自动化 SEO 推送。
+### 🌐 Explore the Platform
+👉 **[数智shzqh.cn - 期货量化研究站](https://shzqh.cn)**
+*Visit the site for real-time strategy briefings, action maps, and quantitative analysis.*
 
-官网：https://shzqh.cn （数智量化）
+### 🛠 Tech Stack
+`Python` | `PocketBase` | `PowerShell` | `SEO Automation`
+
+---
+**Disclaimer**: All content is for technical research and learning purposes only. Not investment advice.
+*(免责声明：所有内容仅供技术研究学习参考，不构成投资建议。)*
